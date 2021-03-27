@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: newsgothic;
+    src: url(../fonts/newsgothic-ex-bold.ttf);
+    font-family: newsgothic2;
+    src: url(../fonts/news-gothic-bold-extra-condensed-bt.ttf);
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.header{
+    background: #252525;
+    height: 400px;
+    margin-bottom: 300px;
+}
+.header img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#banner{
+    max-width: 520px;
+    
+}
+.header h1{
+    color: white;
+    font-size: 75px;
+    /* text-transform: uppercase; */
+    font-family: newsgothic2;
+    line-height: 1.1;
+    font-weight: 500;
+}
+.header p {
+    color: white;
+    font-size: 22px;
+}
+.form{
+    width: 40%;
+    background: #fff;
+    position: relative;
+    top: -550px;
+    left: 52%;
+    padding: 20px;
+}
+.form  h1 { 
+    text-align: center;
+    font-weight: 500;
+    color: #bf3419;
+    font-size: 30px;
+    line-height: 1.1;
+    font-family: inherit;
+}
+form label{
+    font-weight: 500;
+    font-family: newsgothic2;
+}
+.red{
+    color: #bf3419;
+}
+form input{
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 6px 12px;;
+    border-radius: 4px; 
+    border: 1px solid #ccc;
+    transition: all 0.5s;
+}
+form input[type=text]:focus{
+    box-shadow: 0px 0px 8px #8fbbdd;
+    border: 1px solid #8fbbdd;
+    outline: none;
+}
+.form ul li {
+    font-family: newsgothic2;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+form select{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 6px 12px;;
+    border-radius: 4px; 
+    border: 1px solid #ccc;
+    transition: all 0.5s;
+    background: #fff;
+    color: #666;
+    margin-bottom: 30px;
+}
+form select option{
+    color: #666;
+}
+form select:focus {
+    box-shadow: 0px 0px 8px #8fbbdd;
+    border: 1px solid #8fbbdd;
+    outline: none;
+}
+.btn{
+    text-align: center;
+    padding: 10px 20px;
+    background: #9f2913;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 40%;
+    transform: translateX(-30%); 
+    display: inline-block;   
+    margin-bottom: 20px;
+}
+.main h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #333;
+}
+.cards{
+    margin-top: 50px;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.card {
+    width: 30%;
+    text-align: center;
+    color: #333;
+    float: left;
+    margin-right: 5%;
+}
+
+.card:nth-child(3){
+    margin-right: 0;
+}
+.footer{
+    background: #252525;
+    color: white;
+    height: 100px;
+    padding-top: 40px;
+}
+.footer a{
+    color: white;
+}
+.footer p{
+    display: inline;
+}
+.footer h3{
+    text-align: end;
+}
+
